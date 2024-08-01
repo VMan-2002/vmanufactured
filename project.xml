@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pickhaxe>
+  <mod
+    id="vmanufactured"
+    version="1.0.0"
+    parentPackage="com.vman2002.vmanufactured"
+    classPath="./src/"
+    resourcePath="./resources/"
+  />
+
+  <!-- An entry point can be CLIENT, SERVER, or *, defaulting to * (both) -->
+  <mod-entry-point
+    environment="*"
+    value="VmanufacturedMod"
+  />
+
+  <mod-metadata 
+    name="VManufactured"
+    description="Cool things by VMan_2002"
+  />
+
+  <!-- https://spdx.org/licenses/ -->
+  <mod-license value="All Rights Reserved" />
+</pickhaxe>
